@@ -26,12 +26,12 @@ function App() {
       <p>quotes:{quotes.length}</p>
 
       {
-        quotes.map((quote)=>{
+        quotes.map((quote)=>(
           <div key={quote.id}>
             <h2>{quote.quote}</h2>
             <h4>By:{quote.name}</h4>
           </div>
-        })
+        ))
       }
     </>
   );
